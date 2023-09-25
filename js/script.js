@@ -10,7 +10,7 @@ function addToCart(productName, price) {
 }
 
 function showTotalPrice() {
-  const cartItems = document.querySelectorAll("#cart-section .product-card");
+  const cartItems = document.querySelectorAll("#cart-section .product-card-cart");
   let totalPrice = 0;
 
   cartItems.forEach((item) => {
